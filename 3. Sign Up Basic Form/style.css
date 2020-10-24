@@ -1,0 +1,47 @@
+* {
+    font-family: sans-serif;
+    color: gray;
+}
+
+body {
+    width: 20%;
+    margin: 50px auto;
+}
+
+input {
+    display: block;
+    border-radius: 5px;
+    border: solid gray 1px;
+    width: 100%;
+    margin-bottom: 10px;
+    
+}
+
+select {
+    display: block;
+    margin-bottom: 10px;
+}
+
+header {
+    border-bottom: solid gray 1.5px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin: 0;
+}
+
+#submit {
+    width: 50%;
+    border-radius: 0px;
+    color: white;
+    background-color: tomato;
+    font-size: 20px;
+    padding: 5px;
+}
+
+#checkbox {
+    display: inline-block;
+    width: 5%;
+}
+
