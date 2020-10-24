@@ -1,0 +1,32 @@
+* {
+    font-family: sans-serif;
+    text-align: left;
+}
+
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 40px;
+    margin: 20px 0 10px 0 ;
+    
+}
+#serieALogo {
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+}
+
+table {
+    margin: 30px auto;
+    border-spacing: 12px;
+}
+
+
+
+
+
+
+
+
+
+
