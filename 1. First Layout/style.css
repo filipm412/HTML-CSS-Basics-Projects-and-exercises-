@@ -1,0 +1,86 @@
+* {
+    font-family: sans-serif;
+}
+
+
+
+/******************************************FIRST LAYOUT STYLE**********************************************/
+
+
+/*HEADER STYLE*/
+
+#header {
+    border: dashed 1px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+/*NAV STYLE*/
+
+#nav {
+    border: dashed 1px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+/*SECTION STYLE*/
+
+#section {
+    border: dashed 1px;
+    margin: 20px auto 20px auto;
+    width: 50%;
+}
+
+/*FOOTER STYLE*/
+
+#footer {
+    border: dashed 1px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+
+/******************************************SECOND LAYOUT STYLE**********************************************/
+
+header {
+    border-bottom: solid 1px gray;
+    padding: 10px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+nav {
+    border-bottom: solid 1px gray;
+    padding: 10px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+section {
+    padding: 10px;
+    width: 30%;
+    margin-left: 25%;
+    display: inline-block;
+    border-right: solid 1px gray;
+
+}
+
+aside {
+    padding: 10px;
+    width: 20%;
+    margin: 0 auto;
+    display: inline-block;
+    vertical-align: top;
+}
+
+footer {
+    border-top: solid 1px gray;
+    padding: 10px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+
+
