@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pricing Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
+    <style>
+       body {
+           background-image: url("background.jpg"); 
+       }
+       #background {
+           width: 950px;
+           height: 600px;
+           margin: 10% auto;
+           border-radius: 1%;
+           background-color: white;
+       }
+       .column {
+           float: left;
+           width: 17%;
+           height: 300px;
+           border-style: solid;
+           border-color: hsl(218, 35%, 87%);
+           border-width: 0.3px;
+           display: block;
+           transform: translate(-133px, 103px);
+           box-shadow: 2px 2px 4px gray;
+           
+       }
+       h1 {
+           margin: 1px auto;
+           text-align: center;
+           padding: 50px 0 0;
+           font-family:'Kanit', sans-serif;  
+       }
+       #paragraph {
+           font-family:'Kanit', sans-serif;
+           font-size: 11px;
+           color: rgb(139, 143, 154);
+           text-align: center;
+       }
+       .buttons {
+           float:left;
+           width: 15%;
+           height: 45px;
+           border-color: black;
+           border-width: 0.3px;
+           position: relative;
+           left: 35%;
+           top: 20px;  
+           font-family:'Kanit', sans-serif;
+           color: white;
+           background-color: rgb(61, 207, 142);
+           text-align:center;
+           border-radius: 1%;
+           border-style: solid;
+           border-color: white;
+           font-size: 14px;
+           box-shadow: 1px 1px 2px grey;
+       }
+       .row {
+           width: 90%;
+           height: auto;
+           margin: 0 auto;
+           white-space: nowrap;
+        }
+        #monthly {
+            margin: 14px auto;
+        }
+        #annualy {
+            margin: 9px auto;
+            color: hsl(212, 10%, 49%);
+        }
+        #buttons1 {
+            background-color: hsl(212, 10%, 49%);
+        }
+        .small-text {
+            font-size: 11px;
+            font-weight: bold;
+            font-family:'Kanit', sans-serif;
+            text-align: center;
+            position: relative;
+            top: 10%;
+            left: auto;
+        }
+        #dollars {
+            font-family: 'Kanit', sans-serif;
+            font-size: 25px;
+            color: darkslategray;
+        }
+        #numbers {
+            font-family: 'Kanit', sans-serif;
+            font-weight: bolder;
+            font-size: 50px;
+        }
+        #month {
+            font-family: 'Kanit', sans-serif;
+            font-size: 15px;
+            color: darkslategray;
+        }
+        .money {
+            text-align: center;
+        }
+        body::after {
+            content: '';
+            position: relative;
+            left: 72%;
+            top: -820px;
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: white;
+            box-shadow: -5px 8px 38px -12px black;
+            background-image: url("diamond.jpg");
+            background-position: center;
+            background-size: 72px 70px;
+            background-repeat: no-repeat;
+            background-color: hsl(0, 0%, 96%);
+        }
+    </style>
+</head>
+<body>
+    <div id="background">
+        <h1>Pricing</h1>
+        <p id="paragraph">Sign up in less than 30 seconds. Try out our 7 day risk free trial, upgrade<br> at any time, no questions, no hassie.</p>
+        <div id="buttons">
+            <div class="buttons"><p id="monthly"></p>MONTHLY</p></div>
+            <div class="buttons" id="buttons1"><p id="annually">ANNUALLY</p></div>
+        </div>
+        <div id="row">
+           <div class="column"><p class="small-text">Free</p><br><p class="money"><span id="dollars">$</span><span id="numbers">49</span><span id="month">/mo</span></p></div>
+           <div class="column"><p class="small-text">Small Business</p><br><p class="money"><span id="dollars">$</span><span id="numbers">99</span><span id="month">/mo</span></p></div>
+           <div class="column"><p class="small-text">Professional</p><br><p class="money"><span id="dollars">$</span><span id="numbers">219</span><span id="month">/mo</span></p></div>
+           <div class="column"><p class="small-text">Enterprise</p><br><p class="money"><span id="dollars">$</span><span id="numbers">419</span><span id="month">/mo</span></p></div>
+        </div>
+    </div>
+</body>
+</html>
