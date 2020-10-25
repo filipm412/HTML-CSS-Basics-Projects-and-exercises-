@@ -1,0 +1,117 @@
+* {
+    font-family: sans-serif;
+}
+body {
+    margin: 0 auto;
+    width: 70%;
+}
+
+/*HEADER STYLE*/
+
+header {
+    color: white;
+    background-color: gray;
+}
+
+#main-heading {
+    margin: 0;
+    padding: 20px;
+    padding-left: 10px;
+}
+
+/*NAV STYLE*/
+
+nav {
+    color: gray;
+    background-color: black;
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 5px;
+}
+
+a {
+    margin: 5px;
+}
+
+#submit {
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    
+}
+
+form {
+    display: inline-block;
+    float: right;
+}
+
+/*SECTION STYLE*/
+
+#main-section {
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#first-section {
+    width: 100%;
+    margin: 20px;
+    margin-left: 10px;
+    border: solid 1px gray;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding:10px;
+    display: inline-block;
+}
+
+#first-section > h2 {
+    margin: 0px;
+}
+
+#second-section {
+    width: 100%;
+    margin: 10px;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+article {
+    width: 47%;
+    padding:10px;
+    display: inline-block;
+}
+
+/*SIDEBAR STYLE*/
+
+aside {
+    width: 30%;
+    text-align: center;
+    display: inline-block;
+    margin-left: 90px;
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+    border: solid 1px black;
+    display: inline-block;
+    margin: 20px;
+    background-color: gray;
+    font-weight: bold;
+    line-height: 150px;
+}
+
+
+/*FOOTER STYLE*/
+
+footer {
+    background-color: gray;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+
+
